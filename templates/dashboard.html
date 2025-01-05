@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convert Playlist</h1>
+      <form action="/convert" method="POST">
+        <input
+          type="url"
+          name="playlist_url"
+          placeholder="Enter Spotify Playlist URL"
+          required
+        />
+        <button type="submit" class="btn">Convert</button>
+      </form>
+    </div>
+  </body>
+</html>
